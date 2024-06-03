@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+* {
+    margin: 0;
+    background-color: transparent;    
+
+}
+
+body {
+    background: linear-gradient(to left, rgba(136, 214, 120, 0.09), rgba(121, 230, 121, 0.2));
+}
+
+.logo-wrapper {
+    text-transform: uppercase;
+    padding: 30px 0px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.links-one {
+    margin-left: -35%;
+    margin-top: -60px;
+    position: absolute;
+    display: inline;    
+    padding : 20px;
+    align-items: end;
+}
+
+
+.links-one a{
+    margin-left: -35%;
+    cursor: pointer;
+    position: absolute;
+    padding : 20px;
+    text-decoration: none;
+    color: var(--font);
+    font-size: 19px;
+    background-color: transparent;
+    margin-left: -400%;
+}
+
+h5 a {
+    margin-top: -38px;
+    margin-left: -27%;
+    cursor: pointer;
+    position: absolute;
+    padding : 20px;
+    text-decoration: none;
+    color: var(--font);
+    font-size: 19px;
+    background-color: transparent;
+}
+
+h4 a {
+    margin-top: -23px;
+    margin-left: -200px;
+    cursor: pointer;
+    position: absolute;
+    padding : 20px;
+    text-decoration: none;
+    color: var(--font);
+    font-size: 19px;
+    background-color: transparent;
+}
+
+h3 a {
+    margin-top: -23px;
+    margin-left: -10px;
+    cursor: pointer;
+    position: absolute;
+    padding : 20px;
+    text-decoration: none;
+    color: var(--font);
+    font-size: 19px;
+    background-color: transparent;
+}
+
+
+ion-icon {
+    color: var(--font);
+    font-size: 18px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+
+
+
+.links-two {
+    margin-left: 400px;
+    margin-top: -45px;
+    position: absolute;
+    display: inline;
+    padding : 20px;
+    align-items: center;
+}
+
+
+.insta a{
+    
+    font-family: 'Freeman', sans-serif;
+    font-weight: 400;
+    padding: 1%;
+    position: absolute;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: -100px;
+    margin-top: -79px;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--font);
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+}
+
+
+.instagram {
+     font-family: 'Lora', sans-serif;  
+}
+.instagram:hover ion-icon{
+    cursor: pointer;
+    animation-name: mudarCor;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite; 
+}
+
+
+.you {
+    font-family: 'Lora', sans-serif;
+}
+
+.you:hover ion-icon{
+    color: var(--youtube);   
+}
+
+.tik {
+    font-family: 'Lora', sans-serif;
+}
+
+.tik:hover ion-icon {
+    animation-name: colo;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite; 
+}
+
+.pod {
+    font-family: 'Lora', sans-serif;
+}
+
+.colorado {
+    margin-top: -30px;
+    position: relative;
+}
+.colorado a{
+    background: transparent;
+}
+
+.colorado a{
+    color: var(--cabecalho-cor1);
+    font-family: 'Freeman', sans-serif;
+    font-weight: 300px;
+    font-size: 30px;
+    margin-left: 50% auto;    
+    text-decoration: none;
+}
+
+.colorado a:hover {
+    color: var(--cabecalho-cor4);
+}
+
+
+
+.menu {
+    background: var(--fundo-color-primaria);
+    margin-top: -2%;
+    z-index: -1;
+}
+
+.menu-items .active {
+    background: var(--fundo-color-tercearia);
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    display: block;
+}
+
+.menu .menu-items a {
+    text-decoration: none;
+    background-color: var(--cor-segundaria);
+    padding: 10px 30px;
+    display: inline;
+    z-index: -1;
+}
+
+.active a {
+    color: var(--font);
+    font-family: 'Lora',sans-serif;
+}
+.active:hover a {
+    color: var(--font-hover);
+}
+
+.row{
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 30px;
+    width: 600px;
+    height: 980px;
+}
+.row a{
+    text-decoration: none;
+    color: var(--font);
+}
+.row h2{
+    font-size: 27px;
+    margin-top: -9x;
+    margin-left: 30px;
+    padding-bottom: 7px;
+}
+
+
+.row p{
+    font-family: 'Lora',sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.image {
+    overflow: hidden;
+    width: 100%;   
+}
+
+img h1 h2 h3 h4 h5 h6 p a{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.caso-one {
+    padding: 2%;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-color: var(--fundo-color-quinternario);
+    position: absolute;
+    margin-left: 1%;
+}
+
+.thumb {
+    width: 9;
+}
+
+.thum {
+    width: 50%;
+}
+
+.main-news {
+    margin-top: 20px;
+}
+
+.main-news h3 a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+}
+    
+.noticias1 {
+    text-decoration: none;
+    color: var(--font);
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'Lora', sans-serif;
+    position: absolute;
+    background: var(--fundo-color-quinternario);
+}
+
+.noticia1 {
+    height: 140px;
+    width: 300px;
+    margin-left: 640px;
+    margin-top: 35px;
+    position: absolute;
+}
+
+.noticia1 img {
+    overflow: hidden;
+    width: 40%;
+    height: 80px;
+    position: absolute;
+}
+
+.noticia1 p{
+    padding-left: 10px;
+    font-size: 13px;
+    height: 200px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+
+
+
+
+
+.titulonot1 {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+@keyframes mudarCor {
+    0% {color: var(--instagram-primaria);}
+    25% {color: var(--instagram-cor3);}
+    50% {color: var(--instagram-cor2);}
+    80% {color: var(--instagram-primaria);}
+    100% {color: var(--instagram-primaria);}
+}
+
+@keyframes colo {
+    0% {color: var(--tik-cor1);}
+    25% {color: var(--tik-cor2);}
+    50% {color: var(--tik-cor3);}
+    80% {color: var(--tik-cor4);}
+    100% {color: var(--tik-cor1);}    
+}
+
+:root {
+    /* Cores do Colorado News */
+    --cor-primaria: rgb(#32ec0e);
+    --cor-segundaria: rgb(#0059a6);
+
+     /*cores de fundo*/
+
+    --fundo-color-primaria: #ffffff;
+    --fundo-color-segundaria: #e8efeb;
+    --fundo-color-tercearia: #8ea49b;
+    --fundo-color-quarternario: #bacec4;
+    --fundo-color-quinternario: #a3bdb1; 
+    
+    /*fundo botão*/
+    --font: #101111;
+    --font-hover: #2c2727;
+    --fundo:  #7d5151;
+
+    /* Cores do cabeçalho*/
+    --cabecalho-cor1: #000;
+    --cabecalho-cor2: #e6310db7;
+    --cabecalho-cor3: #1d31c2;
+    --cabecalho-cor4: #292222;
+    
+     /* Cores dos botões */
+
+     /*Youtube*/ 
+     --youtube: #c4302b;
+
+     /* WhatsApp */
+     --WhatsApp-primaria: #25d366;
+     --WhatsApp-segundaria: #075e54;
+     --WhatsApp-tercearia: #ffffff;
+
+     /* Instagram */
+     --instagram-cor1: #405de6;
+     --instagram-cor2: #833ab4;
+     --instagram-cor3: #fd1d1d;
+     --instagram-primaria: #fcaf53;
+
+     /* Tik Tok */
+     --tik-cor1: #010101;
+     --tik-cor2: #69C9D0;
+     --tik-cor3: #dbc4c4;
+     --tik-cor4: #EE1D52;
+
+     /*pod cast - projeto futuro*/   
+
+
+}
